@@ -1,0 +1,343 @@
+/**
+ * Responsive CSS
+ */
+.mobile_menu{
+    display: none;
+}
+.mobile_menu .navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    display: block;
+    border: none;
+    margin: 0;
+}
+.navbar-toggle:focus {
+  outline: 0;
+}
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: #333330;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+.navbar-toggle .icon-bar + .icon-bar {
+    margin-top: 4px;
+}
+
+.indicator_close,
+.indicator_open{
+	display: none;
+	line-height: 1.6;
+}
+@media screen and ( max-width: 1200px ){
+	.zps_services_wrapper, 
+	.pricing_wrap,
+	.zps_team_wrap {
+	    max-width: 100%;
+	}
+	.box_content.box_center{
+	    max-width: 100%;
+	}
+	.zp_center_content,
+	.zp_center_content_wrap,
+	.column_wrapper,
+	.zp_portfolio_section,
+	.box_content.box_center{
+	    max-width: 100%;
+	}
+}
+
+/*
+@media screen and ( max-width: 1024px ){
+*/
+@media screen and ( max-width: 1200px ){
+	.site-header{
+    position: absolute;
+}
+.mobile_menu{
+    display: block;
+    position: absolute;
+    right: 5px;
+    top: 20px;
+    overflow: hidden;
+}
+.top-right-widget{
+    display: none;
+}
+.nav-primary{
+    display: none;
+    position: relative;
+    top: 80px;
+    width: 100%;
+    background: #fff;
+}
+.genesis-nav-menu .menu-item{
+    display: block;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+.genesis-nav-menu .menu-item-has-children > a:after {
+    display: none;
+}
+.genesis-nav-menu .menu-item a {
+    padding: 20px 16px;
+}
+.genesis-nav-menu .sub-menu {
+    left: auto;
+    opacity: 1;
+    position: relative;
+    width: 100%;
+    visibility: visible;
+}
+
+.genesis-nav-menu .menu-item .sub-menu a {
+    border: 0;
+    position: relative;
+    text-align: left;
+    width: 100%;
+    padding-left: 30px !important;
+}
+.site_credits{
+    display: none;
+}
+.zp_featured_header {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+main.content {
+    float: right;
+    width: 100%;
+    display: block;
+    position: relative;
+    right: 0;
+    padding: 40px;
+}
+.portfolio_icon_class {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.6);
+}
+.client_carousel {
+    max-width: 1024px;
+}
+.section_wrapper.hasImage{
+   background-attachment: scroll !important;
+}
+}
+
+@media screen and ( max-width: 991px ){
+.client_carousel {
+    max-width: 991px;
+}
+}
+@media screen and ( max-width: 800px ){
+.client_carousel {
+    max-width: 800px;
+}
+}
+@media screen and ( max-width: 768px ){
+.zps_btn{
+    margin-bottom: 10px;
+}
+.box_content{
+    padding: 100px 0px;
+    width: 80%;
+}
+.client_carousel {
+    max-width: 768px;
+}
+.zps_column.zps_one_fourth:nth-child( 4n + 1),
+.zps_column.zps_one_fourth:nth-child( 4n + 3) {
+   margin-left: 0;
+    clear: left;
+}
+.zps_column.zps_one_fourth {
+    width: 48.5%;
+    float: left;
+    overflow: hidden;
+    margin-left: 3%;
+}
+section.section_wrapper{
+    height: auto !important;
+    overflow: hidden;
+}
+.image_section_content {
+    display: block;
+    height: 100%;
+    padding: 80px 0;
+    width: 100%;
+}
+.image_section {
+    height: 600px;
+    width: 100%;
+}
+.section_wrapper.is_video,
+.section_wrapper .video_bg_container,
+.section_wrapper .video-js,
+.section_wrapper .video-js video {
+    height: 600px !important;
+}
+.zp_center_content {
+    padding: 100px 0;
+}
+.image_section_wrap{
+    float: left;
+    width: 100%;
+}
+.video_holder{
+    display: none;
+}
+.video_image_overlay{
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+    overflow: hidden;
+    width: 100%;
+}
+.section_vertical_nav{
+    display: none;
+}
+}
+@media screen and ( max-width: 1024px ) and (max-height: 600px ){
+section.section_wrapper {
+    height: auto !important;
+    overflow: hidden;
+}
+.zps_btn{
+    margin-bottom: 10px;
+}
+.box_content{
+    padding: 100px 0px;
+    width: 80%;
+}
+.zps_column.zps_one_fourth:nth-child( 4n + 1),
+.zps_column.zps_one_fourth:nth-child( 4n + 3) {
+   margin-left: 0;
+    clear: left;
+}
+.zps_column.zps_one_fourth {
+    width: 48.5%;
+    float: left;
+    overflow: hidden;
+    margin-left: 3%;
+}
+section.section_wrapper{
+    height: auto !important;
+    overflow: hidden;
+}
+.image_section_content {
+    display: block;
+    height: 100%;
+    padding: 80px 0;
+    width: 100%;
+}
+.image_section {
+    height: 600px;
+    width: 100%;
+}
+.section_wrapper.is_video,
+.section_wrapper .video_bg_container,
+.section_wrapper .video-js,
+.section_wrapper .video-js video {
+    height: 600px !important;
+}
+.zp_center_content {
+    padding: 100px 0;
+}
+.image_section_wrap{
+    float: left;
+    width: 100%;
+}
+.video_holder{
+    display: none;
+}
+.video_image_overlay{
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+    overflow: hidden;
+    width: 100%;
+}
+.section_vertical_nav{
+    display: none;
+}
+}
+@media screen and ( max-width: 700px ){
+.client_carousel {
+    max-width: 700px;
+}
+}
+
+@media screen and ( max-width: 600px ){
+.client_carousel {
+    max-width: 540px;
+}
+.zps_column.zps_one_fourth:nth-child( 4n + 1),
+.zps_column.zps_one_fourth:nth-child( 4n + 3) {
+    margin-left: 0;
+    clear: left;
+}
+.zps_column.zps_one_fourth{
+    width: 100%;
+    margin-left: 0;
+}
+.box_content.box_right{
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    float: none;
+}
+.box_content.box_left{
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    float: none;
+}
+}
+
+@media screen and ( max-width: 480px ){
+.client_carousel {
+    max-width: 360px;
+}
+.site-container{
+    padding: 0 15px;
+}
+.site-header .wrap{
+    margin: 0 15px;
+}
+.zzp-heading h1 {
+    font-size: 40px;
+    font-size: 4rem;
+}
+.zzp-heading  h2 {
+    font-size: 30px;
+    font-size: 3rem;
+}
+.single h1.entry-title, .page h1.entry-title, .page-title, .archive-title {
+    font-size: 40px;
+    font-size: 4rem;
+    padding: 0 10% 0;
+}
+}
+
+@media screen and ( max-width: 320px ){
+.client_carousel {
+    max-width: 300px;
+}
+.single h1.entry-title, .page h1.entry-title, .page-title, .archive-title {
+    font-size: 40px;
+    font-size: 4rem;
+    padding: 0 10% 0;
+}
+}

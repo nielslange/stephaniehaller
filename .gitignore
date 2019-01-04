@@ -1,0 +1,31 @@
+
+# Ignore everything in the root except the "wp-content" directory, the config
+# fies and the meta files.
+/*
+.*
+~*
+!wp-content/
+!.gitignore
+!.htaccess
+!.htpasswd
+!README.md
+!CHANGELOG.md
+!robots.txt
+!humans.txt
+!composer.json
+
+# Ignore everything in the "wp-content" directory, except the "mu-plugins", the
+# "plugins" and the "themes" directories
+wp-content/*
+!wp-content/mu-plugins/
+!wp-content/plugins/
+!wp-content/themes/
+
+# Ignore everything in the "plugins" directory, except specified plugins
+wp-content/plugins/*
+# !wp-content/plugins/my-single-file-plugin.php
+# !wp-content/plugins/my-directory-plugin/
+
+# Ignore everything in the "themes" directory, except specified themes
+wp-content/themes/*
+!wp-content/themes/away-genesis/

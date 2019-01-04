@@ -1,0 +1,337 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Away Genesis\n"
+"POT-Creation-Date: 2017-05-05 18:55+0700\n"
+"PO-Revision-Date: 2017-05-22 15:05+0700\n"
+"Last-Translator: Niels Lange <info@nielslange.de>\n"
+"Language-Team: Niels Lange <info@nielslange.de>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:10
+msgid "Not found, error 404"
+msgstr ""
+
+#: 404.php:15
+#, php-format
+msgid ""
+"The page you are looking for no longer exists. Perhaps you can return back "
+"to the site's <a href=\"%s\">homepage</a> and see if you can find what you "
+"are looking for. Or, you can try finding it by using the search form below."
+msgstr ""
+
+#: 404.php:22
+#, php-format
+msgid ""
+"The page you are looking for no longer exists. Perhaps you can return back "
+"to the site's <a href=\"%s\">homepage</a> and see if you can find what you "
+"are looking for. Or, you can try finding it with the information below."
+msgstr ""
+
+#: functions.php:190
+msgid "Top Left"
+msgstr ""
+
+#: functions.php:191
+msgid "This widget area appears on the top left of the page."
+msgstr ""
+
+#: functions.php:195
+msgid "Top Right"
+msgstr ""
+
+#: functions.php:196
+msgid "This widget area appears on the top right of the page."
+msgstr ""
+
+#: functions.php:302
+msgid "Error 404 Page"
+msgstr ""
+
+#: functions.php:305
+msgid "Search Page"
+msgstr ""
+
+#: functions.php:347
+msgid "Read Full Article "
+msgstr "Weiterlesen "
+
+#: functions.php:382
+msgid "Type to Search..."
+msgstr "Bitte Suchtext eingeben"
+
+#: functions.php:384
+msgid ""
+"Type your search terms above and press return to see the search results."
+msgstr ""
+"Bitte Suchbegriff eingeben und Enter drücken, um die Suchergebnisse "
+"anzuzeigen."
+
+#: functions.php:524
+msgid "Status"
+msgstr "Status"
+
+#: functions.php:525 functions.php:528 include/cpt/zp_cpt.php:62
+msgid "Date"
+msgstr "Datum"
+
+#: functions.php:526
+msgid "Time"
+msgstr "Zeit"
+
+#: functions.php:527
+msgid "Costs"
+msgstr "Kosten"
+
+#: include/cpt/class/class-super-custom-post-meta.php:516
+msgid "Add Image"
+msgstr ""
+
+#: include/cpt/class/class-super-custom-post-meta.php:571
+msgid "Add Images"
+msgstr ""
+
+#: include/cpt/class/class-super-custom-post-meta.php:572
+msgid "Clear Images"
+msgstr ""
+
+#: include/cpt/zp_cpt.php:29
+msgid "Navigation Anchor/Section ID"
+msgstr ""
+
+#: include/cpt/zp_cpt.php:29
+msgid ""
+"e.g. portfolio, blog. Then in custom menu add #portfolio, #blog. "
+"<strong>This should NOT be empty.</strong>"
+msgstr ""
+
+#: include/cpt/zp_cpt.php:30
+msgid "Section background image."
+msgstr ""
+
+#: include/cpt/zp_cpt.php:31
+msgid "Section background color."
+msgstr ""
+
+#: include/cpt/zp_cpt.php:32
+msgid "Section text color."
+msgstr ""
+
+#: include/cpt/zp_cpt.php:33
+msgid "Section overlay color."
+msgstr ""
+
+#: include/cpt/zp_cpt.php:34
+msgid "Section overlay opacity. Max value: 1. Example: 0.5"
+msgstr ""
+
+#: include/cpt/zp_cpt.php:44
+msgid "Static Image"
+msgstr ""
+
+#: include/cpt/zp_cpt.php:44
+msgid "This image will be used as when video is off."
+msgstr ""
+
+#: include/cpt/zp_cpt.php:45
+msgid "Overlay Color"
+msgstr ""
+
+#: include/cpt/zp_cpt.php:45
+msgid "Set Video overlay color"
+msgstr ""
+
+#: include/cpt/zp_cpt.php:46
+msgid "Overlay Opacity"
+msgstr ""
+
+#: include/cpt/zp_cpt.php:46
+msgid "Set overlay opacity. Range 0 - 1."
+msgstr ""
+
+#: include/cpt/zp_cpt.php:48
+msgid "Video URL ( mp4 )"
+msgstr ""
+
+#: include/cpt/zp_cpt.php:48
+msgid "Add video URL in mp4 extension."
+msgstr ""
+
+#: include/cpt/zp_cpt.php:49
+msgid "Video URL ( webm )"
+msgstr ""
+
+#: include/cpt/zp_cpt.php:49
+msgid "Add video URL in webm extension for crossbrowser fallbacks."
+msgstr ""
+
+#: include/cpt/zp_cpt.php:50
+msgid "Video URL ( ogg )"
+msgstr ""
+
+#: include/cpt/zp_cpt.php:50
+msgid "Add video URL in ogg extension for crossbrowser fallbacks."
+msgstr ""
+
+#: include/cpt/zp_cpt.php:59
+msgid "Title"
+msgstr ""
+
+#: include/cpt/zp_cpt.php:60
+msgid "Section Category"
+msgstr ""
+
+#: include/cpt/zp_cpt.php:61
+msgid "Author"
+msgstr ""
+
+#: include/cpt/zp_cpt.php:75
+msgid "Unable to get section category(s)"
+msgstr ""
+
+#: include/cpt/zp_cpt.php:114 include/cpt/zp_cpt.php:147
+msgid "Gallery Images"
+msgstr ""
+
+#: include/cpt/zp_cpt.php:114 include/cpt/zp_cpt.php:147
+msgid "Upload gallery images"
+msgstr ""
+
+#: include/cpt/zp_cpt.php:123
+msgid "Audio .mp3 URL"
+msgstr ""
+
+#: include/cpt/zp_cpt.php:123
+msgid "The URL to the .mp3 audio file"
+msgstr ""
+
+#: include/cpt/zp_cpt.php:132 include/cpt/zp_cpt.php:148
+msgid "Video Link"
+msgstr ""
+
+#: include/cpt/zp_cpt.php:132
+msgid "Add Youtube/Vimeo link or URL to the .mp4, .webm & .ogv video file."
+msgstr ""
+
+#: include/cpt/zp_cpt.php:148
+msgid "Set video link"
+msgstr ""
+
+#: include/cpt/zp_cpt.php:167
+msgid "Define section category to display in the template"
+msgstr ""
+
+#: include/cpt/zp_cpt.php:203
+msgid "Category Featured Image Options"
+msgstr ""
+
+#: include/cpt/zp_cpt.php:208
+msgid "Category Image"
+msgstr ""
+
+#: include/cpt/zp_cpt.php:211
+msgid "Upload Image"
+msgstr ""
+
+#: include/cpt/zp_cpt.php:212
+msgid "Remove Image"
+msgstr ""
+
+#: include/customizer.php:27 include/customizer.php:42
+msgid "Default Header Image"
+msgstr ""
+
+#: include/customizer.php:52
+msgid "Font Style"
+msgstr ""
+
+#: include/customizer.php:66
+msgid "Body Font Family"
+msgstr ""
+
+#: include/customizer.php:84
+msgid "Body Font Weight"
+msgstr ""
+
+#: include/customizer.php:102
+msgid "Headings Font Family"
+msgstr ""
+
+#: include/customizer.php:120
+msgid "Headings Font Weight"
+msgstr ""
+
+#: include/shortcode/shortcode_label.php:7
+msgid "Box Content"
+msgstr ""
+
+#: include/shortcode/shortcode_label.php:11
+msgid "Center Content"
+msgstr ""
+
+#: include/shortcode/shortcode_label.php:15
+msgid "Image Section"
+msgstr ""
+
+#: include/shortcode/shortcode_label.php:19
+msgid "Header Label"
+msgstr ""
+
+#: include/shortcode/shortcode_label.php:23
+msgid "Portfolio"
+msgstr ""
+
+#: include/theme_functions.php:76
+msgid "View Gallery"
+msgstr ""
+
+#: include/theme_functions.php:122
+msgid "Watch Video"
+msgstr ""
+
+#: include/theme_functions.php:158
+msgid "Listen Audio"
+msgstr ""
+
+#: include/theme_functions.php:323
+msgid "All"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Away Genesis"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Genesis child theme."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "ZigzagPress"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.zigzagpress.com/"
+msgstr ""
+
+#~ msgctxt "Post Type General Name"
+#~ msgid "Cooking Courses"
+#~ msgstr "Kochkurse"
+
+#~ msgctxt "Post Type Singular Name"
+#~ msgid "Cooking Course"
+#~ msgstr "Kochkurs"
+
+#~ msgid "Cooking Course"
+#~ msgstr "Kochkurs"

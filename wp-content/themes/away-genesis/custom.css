@@ -1,0 +1,65 @@
+/*
+ * Custom CSS
+ *
+ * Place here your custom CSS. This will keep your custom css when there is a theme update.
+ *
+ */
+
+.site-container {
+    padding: 0;
+}
+
+/*
+.section_content {
+  height: initial;
+}
+*/
+
+body.page-template-page_blog h1.entry-title {
+	color: #333330;
+}
+
+body.page-template-page_blog h1.entry-title:after {
+    background: #333330;
+}
+
+article a {
+    border-bottom: 1px dotted;
+}
+
+article a:hover, article a:focus {
+    border-bottom: 1px solid;
+}
+
+article h2.entry-title a,
+article a.more-link {
+    border-bottom: none;
+}
+
+#kochkurse-1,
+#kochkurse-1 .section_content_wrap,
+#kochkurse-1 .zp_center_content {
+  max-height: 400px;
+}
+
+.flexitem {
+	z-index: 3;
+}
+
+.custom-logo-link img {
+    max-height: 110px;
+    width: auto;
+    margin: 10px 0;
+}
+
+@media only screen and (max-width: 1199px) {
+    .custom-logo-link img {
+        max-height: 80px;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+	.custom-logo-link img {
+	    max-height: 50px;
+	}
+}
