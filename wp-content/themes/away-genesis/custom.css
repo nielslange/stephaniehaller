@@ -1,19 +1,10 @@
 /*
  * Custom CSS
- *
- * Place here your custom CSS. This will keep your custom css when there is a theme update.
- *
  */
 
 .site-container {
     padding: 0;
 }
-
-/*
-.section_content {
-  height: initial;
-}
-*/
 
 body.page-template-page_blog h1.entry-title {
 	color: #333330;
@@ -36,10 +27,12 @@ article a.more-link {
     border-bottom: none;
 }
 
-#kochkurse-1,
-#kochkurse-1 .section_content_wrap,
-#kochkurse-1 .zp_center_content {
-  max-height: 400px;
+@media screen and (min-width:768px) {
+    #kochkurse-1,
+    #kochkurse-1 .section_content_wrap,
+    #kochkurse-1 .zp_center_content {
+      max-height: 400px;
+    }
 }
 
 .flexitem {

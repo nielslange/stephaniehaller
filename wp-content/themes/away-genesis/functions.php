@@ -471,11 +471,11 @@ function nl_render_cooking_courses() {
 				$status	= get_post_meta( get_the_ID() , 'event_available' , true ) ? null : 'sold_out_bg';
 				
 				if ( has_post_thumbnail(get_the_ID()) ) {
-					$image = wp_get_attachment_image(get_post_thumbnail_id(get_the_ID()), 'large', false, array('class' => $status));
+					$image = wp_get_attachment_image_src(get_post_thumbnail_id(get_the_ID()), 'large', false );
 				} else {
-					$image = '<img class="'. $status .'" src="'.get_stylesheet_directory_uri().'/images/logo-stephanie-haller-augenschmaus-und-gaumenfreuden-quer.png">';
+					$image = [ 0 => get_stylesheet_directory_uri().'/images/logo-stephanie-haller-augenschmaus-und-gaumenfreuden-quer.png' ];
 				}
-				
+
 				print('<div class="flexitem">');
 
 				//* Set locals to German
@@ -484,7 +484,7 @@ function nl_render_cooking_courses() {
 				$time 	= substr(get_post_meta( get_the_ID() , 'event_time' , true ), 0, 5 );
 				$price 	= 'EUR ' . number_format(get_post_meta( get_the_ID() , 'event_price' , true ), 2, ',', '.' );
 				
-				printf('<a href="%s" class="event-image">%s</a>', get_the_permalink(), $image );
+				printf('<a href="%s" class="event-image" style="display:block; min-height: 300px; background:url(%s); background-size:cover; background-position:center;"></a>', get_the_permalink(), $image[0] );
 				
 				if ( 'sold_out_bg' == $status ) { 
 					print( '<span class="sold_out">Ausgebucht</span>' ); 
